@@ -1,0 +1,25 @@
+<ul class="breadcrumb">
+  <li><a href="#/">Domains</a> <span class="divider">/</span></li>
+  <li>{{domain}}</li>
+</ul>
+
+<ul class="pager">
+  <li class="previous" ng-show="prevpage != null">
+    <a ng-href="#/list{{prevpage}}">&larr; Previous</a>
+  </li>
+  <li class="next" ng-show="nextpage != null">
+    <a ng-href="#/list{{nextpage}}">Next &rarr;</a>
+  </li>
+</ul>
+
+<table class="table table-striped">
+  <tbody>
+  <tr ng-repeat="item in items._items">
+    <td>
+      <div ng-repeat="(key, value) in item" ng-show="key != '_links'">
+        {{key}}: {{value}}
+      </div>
+    </td>
+  </tr>
+  </tbody>
+</table>

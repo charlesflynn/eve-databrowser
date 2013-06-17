@@ -1,0 +1,12 @@
+<ul class="breadcrumb">
+  <li><a href="#/">Domains</a></li>
+</ul>
+<table class="table table-striped">
+  <tbody>
+  <tr ng-repeat="domain in domains._links.child">
+    <td>
+      <a href="#/list/{{domain.title}}">{{domain.title}}</a>
+    </td>
+  </tr>
+  </tbody>
+</table>
