@@ -10,6 +10,9 @@ A simple web client to browse the data served by an [Eve](https://github.com/nic
 3. Activate the blueprint in your Flask launch script (see `example/run.py`)
 4. Restart your application and access the `url_prefix` you configured for the blueprint
 
+Example screenshot:
+![Sample output](http://charonex.com/img/databrowser-example.png)
+
 ### Using elsewhere
 
 Disclaimer: I haven't tried this. All client files are static, so it should be possible to serve the client through any webserver. You'd need to have your environment configured to allow CORS. I haven't tried this, but if you get it working let me know and I'll update the documentation.
