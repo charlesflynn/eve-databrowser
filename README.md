@@ -22,9 +22,12 @@ Example: if your Eve settings file has `URL_PREFIX = 'api'`, you would use:
     
     RestangularProvider.setBaseUrl('/api');
 
-
 ### Example directory credits
 
 `example/client.py` is from Nicola Iarocci's [eve-demo-client](https://github.com/nicolaiarocci/eve-demo-client) repo. I've modified it slightly to insert more entries into the works collection, to show off the paging in the data browser.
 
 `example/settings.py` is from Nicola Iarocci's [eve-demo](https://github.com/nicolaiarocci/eve-demo) repo. I've added a `URL_PREFIX` setting.
+
+### License
+
+Released under the [MIT License](http://www.opensource.org/licenses/MIT).
