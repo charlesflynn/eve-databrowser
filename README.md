@@ -11,6 +11,7 @@ A simple web client to browse the data served by an [Eve](https://github.com/nic
 4. Restart your application and access the `url_prefix` you configured for the blueprint
 
 Example screenshot:
+
 ![Sample output](http://charonex.com/img/databrowser-example.png)
 
 ### Using elsewhere
